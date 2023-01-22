@@ -4,7 +4,46 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+body 
+  {color:#06365f;
+    font: 200 16px/1.5 "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
   margin: 0;
+}
+#fondo-azul{
+  position: relative;
+  border: 1px;
+  background-color: #1c5380;
+  size: 700px;
+  width:1;
+  height: 300px;
+}
+#fondo-azul img {
+  position: absolute;
+  right: 540px;
+  top: 195px;
+  
+}
+#cuerpo h2{
+  background-color: white;
+  width: 580px;
+  height:100px;
+  position: relative;
+  left: 20px;
+  padding: 8px;
+}
+#cuerpo {
+
+
+width: 600px;
+height: 480px;
+position: absolute;
+right: 265px;
+top:270px;
+}
+
+#cuerpo p{
+  padding:10px;
+  position:relative;
+  left: 10px;
+
 }
